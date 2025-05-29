@@ -36,4 +36,13 @@ my_list = ['a', 'b', 'c']
 for index, value in enumerate(my_list):
     print(f"Índice: {index}, Valor: {value}")
 
-    
+
+my_condition =0
+
+while my_condition < 20:
+    my_condition += 1
+    if my_condition == 15:
+        print("Se ha alcanzado el valor 15, saliendo del bucle.")
+        break
+
+    print(f"Valor actual: {my_condition}")
