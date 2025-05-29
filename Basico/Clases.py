@@ -7,7 +7,7 @@ class Persona:
         # self.nombre = nombre
         # self.edad = edad
 
-        self.full_name = f"{nombre} {surname} {alias}"
+        self.full_name = f"{nombre} {surname} ({alias})"
 
     def saludar(self):
         print(f"Hola, {self.full_name}.")
