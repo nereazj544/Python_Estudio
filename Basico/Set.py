@@ -10,4 +10,7 @@ print(type(my_set_))  # Imprime el tipo del conjunto
 
 print(len(my_other_set))  # Imprime la longitud del conjunto de números
 
-print(my_other_set[0])
+my_other_set.add("Neo")
+print(my_other_set)  # Imprime el conjunto después de agregar un elemento
+# my_other_set.add("Neo")
+# print(my_other_set)  # Imprime el conjunto después de agregar un elemento duplicado
