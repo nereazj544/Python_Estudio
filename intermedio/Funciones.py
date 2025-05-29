@@ -1,0 +1,17 @@
+#funciones de orden superior
+# Las funciones de orden superior son aquellas que pueden recibir otras funciones como argumentos o devolverlas como resultado.
+# Estas funciones son útiles para crear código más modular y reutilizable.
+
+
+
+def sum_value(first, second):
+    return first + second + 1  # Definición de una función que suma dos números
+
+# funcion de orden superior
+def sum_one (value):
+    return value + 1  # Definición de una función que suma 1 a un valor
+
+def sum_values (first, second):
+    return sum_one(first + second)  # Llamada a la función pasada como argumento
+
+print(sum_values(5, 10))  # Llamada a la función que suma dos números y luego aplica sum_one
