@@ -12,3 +12,13 @@ def fecha_ayer():
 print("Fecha y hora actual:", actual_fecha())
 
 print("Fecha de ayer:", fecha_ayer())
+
+
+def fecha_mañana():
+    return (datetime.date.today() + datetime.timedelta(days=1)).strftime("%Y-%m-%d")
+
+print("Fecha de mañana:", fecha_mañana())
+
+now = datetime.datetime.now()
+
+print(now.year)
