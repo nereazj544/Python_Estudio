@@ -1,3 +1,5 @@
+## Listas = []
+
 my_list = list () # si no se especifica 'list' sera una tupla
 my_list = [1, 2, 3, 4, 5]  # Crea una lista de números
 print("Lista original:", my_list)  # Imprime la lista original
@@ -30,3 +32,14 @@ print(list([1, 2]))
 print([1, 2, "Neo"])
 
 
+# Opciones para crear listas
+my_list = list("Hola Mundo")  # Convierte una cadena en una lista de caracteres
+my_list = [1, 2, 3, 4, 5]  # Crea una lista de números
+print("Lista de numeros, usado POP")
+print(my_list.pop()) # Elimina y devuelve el último elemento de la lista
+print("Lista de numeros, despues de usar POP")
+print(my_list)  # Imprime la lista después de eliminar el último elemento
+
+print("Lista de numeros, usado POP con indice")
+print(my_list.pop(2))  # Elimina y devuelve el tercer elemento de la lista
+print(my_list)  # Imprime la lista después de eliminar el último elemento
