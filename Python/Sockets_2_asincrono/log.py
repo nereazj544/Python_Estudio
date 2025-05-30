@@ -1,6 +1,6 @@
 import logging
 
-def setup_servidor():
+def Setup_servidor():
     logging.basicConfig(filename="Python/Sockets_2_asincrono/log/info_servidor.log", level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
     logging.debug("[DEBUG]: ")
