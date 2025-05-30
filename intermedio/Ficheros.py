@@ -27,3 +27,5 @@ os.remove("intermedio/doc/my_file2.txt")
 - w > escribir, eleminando antes el contenido del fichero (si existe)
 - a > escribir, añadiendo el nuevo contenido al final del fichero
 """
+
+
