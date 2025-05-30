@@ -11,14 +11,14 @@
 2025-05-30 14:20:35,476 - INFO - [SERVER]: Waiting for client connections...
 2025-05-30 14:20:42,176 - INFO - [SERVER]: Connected to ('127.0.0.1', 63042)
 2025-05-30 14:20:42,176 - INFO - [SERVER]: Waiting for data from client...
-2025-05-30 14:20:45,925 - INFO - [CLIENT]: [('127.0.0.1', 63042)] dsa´
-2025-05-30 14:20:45,926 - INFO - [SERVER]: Received message from ('127.0.0.1', 63042): dsa´
+2025-05-30 14:20:45,925 - INFO - [CLIENT]: [('127.0.0.1', 63042)] dsaï¿½
+2025-05-30 14:20:45,926 - INFO - [SERVER]: Received message from ('127.0.0.1', 63042): dsaï¿½
 2025-05-30 14:20:45,926 - INFO - [SERVER]: [('127.0.0.1', 63042)]
 2025-05-30 14:20:53,303 - INFO - [CLIENT]: [('127.0.0.1', 63042)] sad
 2025-05-30 14:20:53,303 - INFO - [SERVER]: Received message from ('127.0.0.1', 63042): sad
 2025-05-30 14:20:53,303 - INFO - [SERVER]: [('127.0.0.1', 63042)]
-2025-05-30 14:21:12,493 - ERROR - [SERVER]: Error in task_client: [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto
-2025-05-30 14:21:12,494 - ERROR - [CLIENT]: Error in task_client: [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto
+2025-05-30 14:21:12,493 - ERROR - [SERVER]: Error in task_client: [WinError 10054] Se ha forzado la interrupciï¿½n de una conexiï¿½n existente por el host remoto
+2025-05-30 14:21:12,494 - ERROR - [CLIENT]: Error in task_client: [WinError 10054] Se ha forzado la interrupciï¿½n de una conexiï¿½n existente por el host remoto
 2025-05-30 14:22:02,971 - INFO - [SERVER]: Start server v1 connectes to 127.0.0.1:6000
 2025-05-30 14:22:02,972 - INFO - [SERVER]: Waiting for client connections...
 2025-05-30 14:22:15,477 - INFO - [SERVER]: Start server v1 connectes to 127.0.0.1:6000
