@@ -1,2 +1,43 @@
 2025-05-30 14:05:57,436 - INFO - [SERVER]: Start server v1 connectes to 127.0.0.1:6000
 2025-05-30 14:10:13,733 - INFO - [SERVER]: Start server v1 connectes to 127.0.0.1:6000
+2025-05-30 14:14:11,503 - INFO - [SERVER]: Start server v1 connectes to 127.0.0.1:6000
+2025-05-30 14:17:12,431 - INFO - [SERVER]: Start server v1 connectes to 127.0.0.1:6000
+2025-05-30 14:17:31,786 - INFO - [SERVER]: Connected to ('127.0.0.1', 62944)
+2025-05-30 14:17:31,786 - INFO - [SERVER]: Waiting for data from client...
+2025-05-30 14:17:35,205 - INFO - [SERVER]: [('127.0.0.1', 62944)]
+2025-05-30 14:17:40,136 - INFO - [SERVER]: [('127.0.0.1', 62944)]
+2025-05-30 14:17:58,088 - INFO - [SERVER]: [('127.0.0.1', 62944)]
+2025-05-30 14:20:35,476 - INFO - [SERVER]: Start server v1 connectes to 127.0.0.1:6000
+2025-05-30 14:20:35,476 - INFO - [SERVER]: Waiting for client connections...
+2025-05-30 14:20:42,176 - INFO - [SERVER]: Connected to ('127.0.0.1', 63042)
+2025-05-30 14:20:42,176 - INFO - [SERVER]: Waiting for data from client...
+2025-05-30 14:20:45,925 - INFO - [CLIENT]: [('127.0.0.1', 63042)] dsa´
+2025-05-30 14:20:45,926 - INFO - [SERVER]: Received message from ('127.0.0.1', 63042): dsa´
+2025-05-30 14:20:45,926 - INFO - [SERVER]: [('127.0.0.1', 63042)]
+2025-05-30 14:20:53,303 - INFO - [CLIENT]: [('127.0.0.1', 63042)] sad
+2025-05-30 14:20:53,303 - INFO - [SERVER]: Received message from ('127.0.0.1', 63042): sad
+2025-05-30 14:20:53,303 - INFO - [SERVER]: [('127.0.0.1', 63042)]
+2025-05-30 14:21:12,493 - ERROR - [SERVER]: Error in task_client: [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto
+2025-05-30 14:21:12,494 - ERROR - [CLIENT]: Error in task_client: [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto
+2025-05-30 14:22:02,971 - INFO - [SERVER]: Start server v1 connectes to 127.0.0.1:6000
+2025-05-30 14:22:02,972 - INFO - [SERVER]: Waiting for client connections...
+2025-05-30 14:22:15,477 - INFO - [SERVER]: Start server v1 connectes to 127.0.0.1:6000
+2025-05-30 14:22:15,477 - INFO - [SERVER]: Waiting for client connections...
+2025-05-30 14:22:46,094 - INFO - [SERVER]: Connected to ('127.0.0.1', 63133)
+2025-05-30 14:22:46,095 - INFO - [SERVER]: Waiting for data from client...
+2025-05-30 14:22:48,657 - INFO - [CLIENT]: [('127.0.0.1', 63133)] DAS
+2025-05-30 14:22:48,657 - INFO - [SERVER]: Received message from ('127.0.0.1', 63133): DAS
+2025-05-30 14:22:48,657 - INFO - [SERVER]: [('127.0.0.1', 63133)]
+2025-05-30 14:22:51,073 - INFO - [SERVER]: Sending message to ('127.0.0.1', 63133): DAS
+2025-05-30 14:22:51,074 - INFO - [CLIENT]: SERVER message to ('127.0.0.1', 63133): DAS
+2025-05-30 14:23:15,419 - INFO - [SERVER]: Connection closed by ('127.0.0.1', 63133)
+2025-05-30 14:23:18,440 - INFO - [SERVER]: Connected to ('127.0.0.1', 63138)
+2025-05-30 14:23:18,441 - INFO - [SERVER]: Waiting for data from client...
+2025-05-30 14:23:23,685 - INFO - [CLIENT]: [('127.0.0.1', 63138)] dl
+2025-05-30 14:23:23,686 - INFO - [SERVER]: Received message from ('127.0.0.1', 63138): dl
+2025-05-30 14:23:23,686 - INFO - [SERVER]: [('127.0.0.1', 63138)]
+2025-05-30 14:23:26,745 - INFO - [SERVER]: Sending message to ('127.0.0.1', 63138): exit
+2025-05-30 14:23:26,746 - INFO - [CLIENT]: SERVER message to ('127.0.0.1', 63138): exit
+2025-05-30 14:23:26,746 - INFO - [SERVER]: Server is shutting down
+2025-05-30 14:23:30,860 - INFO - [SERVER]: Start server v1 connectes to 127.0.0.1:6000
+2025-05-30 14:23:30,860 - INFO - [SERVER]: Waiting for client connections...
