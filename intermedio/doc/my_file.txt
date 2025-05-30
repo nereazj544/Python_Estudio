@@ -1,0 +1,4 @@
+Mi nombre es Neo
+El nombre de mi perro es Kai
+Edad 20 
+estoy aprendiendo Python
