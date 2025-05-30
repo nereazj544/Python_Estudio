@@ -39,3 +39,7 @@ async def task_client():
         server_error(f"Error in task_client: {e}")
         print(f"> Error en la tarea del cliente: {e}")
 
+
+
+if __name__ == "__main__":
+    asyncio.run(task_client())
