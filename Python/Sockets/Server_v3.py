@@ -11,6 +11,12 @@ while True:
     conn, addr = server.accept()  # Acepta una conexión entrante
     print(f"Conectado a {addr}")  # Imprime la dirección del cliente conectado
     print("Esperando datos del cliente...")
-    msg = conn.recv(1024).decode()  # Recibe datos del cliente
-    conn.close()  # Cierra la conexión
-    print(f"[{addr}] {msg}")
+
+    while True:
+        msg = conn.recv(1024).decode()  # Recibe datos del cliente
+        if not msg:
+            conn.close()  # Cierra la conexión
+            print(f"Conexión cerrada por {addr}")
+            break
+
+        print(f"[{addr}] {msg}")
