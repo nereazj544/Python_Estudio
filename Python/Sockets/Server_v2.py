@@ -9,4 +9,22 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.listen()  # Escucha conexiones entrantes
     con, addr = s.accept()  # Acepta una conexión entrante
     print(f"Servidor escuchando en {HOST}:{PORT}")
-    
+
+    with con:
+        print(f"Conectado por {addr}")
+        while True:
+            data = con.recv(1024) # se queda esperando a recibir datos del cliente
+            if not data:
+                break
+            con.sendall(data)
+
+            
+
+        data = con.recv(1024)
+        
+        
+
+print(f"Recibido: {data}")  # Imprime los datos recibidos del cliente
+
+
+
