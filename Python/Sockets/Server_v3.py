@@ -20,3 +20,5 @@ while True:
             break
 
         print(f"[{addr}] {msg}")
+        msg = input("Escribe una respuesta: ")  # Solicita al usuario una respuesta
+        conn.sendall(msg.encode())  # Envía la respuesta al cliente

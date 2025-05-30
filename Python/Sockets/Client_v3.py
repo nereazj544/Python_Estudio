@@ -14,4 +14,7 @@ while "Exit":
         break
     s.sendall(msg.encode())  # Envía el mensaje al servidor
 
+
+    data = s.recv(1024).decode()  # Recibe la respuesta del servidor
+    print(f"Respuesta del servidor: {data}")  # Imprime la respuesta del servidor
 s.close()  # Cierra el socket
