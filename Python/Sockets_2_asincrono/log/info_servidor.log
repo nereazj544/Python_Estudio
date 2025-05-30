@@ -41,3 +41,16 @@
 2025-05-30 14:23:26,746 - INFO - [SERVER]: Server is shutting down
 2025-05-30 14:23:30,860 - INFO - [SERVER]: Start server v1 connectes to 127.0.0.1:6000
 2025-05-30 14:23:30,860 - INFO - [SERVER]: Waiting for client connections...
+2025-05-30 14:24:01,803 - INFO - [SERVER]: Connected to ('127.0.0.1', 63159)
+2025-05-30 14:24:01,803 - INFO - [SERVER]: Waiting for data from client...
+2025-05-30 14:24:03,481 - INFO - [CLIENT]: [('127.0.0.1', 63159)] da
+2025-05-30 14:24:03,481 - INFO - [SERVER]: Received message from ('127.0.0.1', 63159): da
+2025-05-30 14:24:03,481 - INFO - [SERVER]: [('127.0.0.1', 63159)]
+2025-05-30 14:24:06,655 - INFO - [SERVER]: Sending message to ('127.0.0.1', 63159): dsa
+2025-05-30 14:24:06,655 - INFO - [CLIENT]: SERVER message to ('127.0.0.1', 63159): dsa
+2025-05-30 14:24:29,526 - INFO - [CLIENT]: [('127.0.0.1', 63159)] jhgfds
+2025-05-30 14:24:29,526 - INFO - [SERVER]: Received message from ('127.0.0.1', 63159): jhgfds
+2025-05-30 14:24:29,526 - INFO - [SERVER]: [('127.0.0.1', 63159)]
+2025-05-30 14:24:32,767 - INFO - [SERVER]: Sending message to ('127.0.0.1', 63159): jk
+2025-05-30 14:24:32,767 - INFO - [CLIENT]: SERVER message to ('127.0.0.1', 63159): jk
+2025-05-30 14:24:41,013 - INFO - [SERVER]: Connection closed by ('127.0.0.1', 63159)
