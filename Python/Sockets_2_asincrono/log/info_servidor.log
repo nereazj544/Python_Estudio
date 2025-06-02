@@ -53,4 +53,60 @@
 2025-05-30 14:24:29,526 - INFO - [SERVER]: [('127.0.0.1', 63159)]
 2025-05-30 14:24:32,767 - INFO - [SERVER]: Sending message to ('127.0.0.1', 63159): jk
 2025-05-30 14:24:32,767 - INFO - [CLIENT]: SERVER message to ('127.0.0.1', 63159): jk
-2025-05-30 14:24:41,013 - INFO - [SERVER]: Connection closed by ('127.0.0.1', 63159)
+2025-05-30 14:24:41,013 - INFO - [SERVER]: Connection closed by ('127.0.0.1', 63159)2025-06-02 15:40:24,781 - INFO - [SERVER]: Start server v1 connectes to 127.0.0.1:6000
+2025-06-02 15:40:24,783 - INFO - [SERVER]: Waiting for client connections...
+2025-06-02 15:40:44,159 - INFO - [SERVER]: Connected to ('127.0.0.1', 54314)
+2025-06-02 15:40:44,160 - INFO - [SERVER]: Waiting for data from client...
+2025-06-02 15:41:02,681 - ERROR - [SERVER]: Error in task_client: [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto
+2025-06-02 15:41:02,683 - ERROR - [CLIENT]: Error in task_client: [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto
+2025-06-02 15:42:51,685 - INFO - [SERVER]: Start server v1 connectes to 127.0.0.1:6000
+2025-06-02 15:42:51,685 - INFO - [SERVER]: Waiting for client connections...
+2025-06-02 15:42:54,925 - INFO - [SERVER]: Connected to ('127.0.0.1', 54328)
+2025-06-02 15:42:54,925 - INFO - [SERVER]: Waiting for data from client...
+2025-06-02 15:42:57,340 - INFO - [CLIENT]: [('127.0.0.1', 54328)] hda
+2025-06-02 15:42:57,341 - INFO - [SERVER]: Received message from ('127.0.0.1', 54328): hda
+2025-06-02 15:42:57,341 - INFO - [SERVER]: [('127.0.0.1', 54328)]
+2025-06-02 15:43:05,651 - INFO - [SERVER]: Sending message to ('127.0.0.1', 54328): hdas
+2025-06-02 15:43:05,651 - INFO - [CLIENT]: SERVER message to ('127.0.0.1', 54328): hdas
+2025-06-02 15:43:07,236 - INFO - [CLIENT]: [('127.0.0.1', 54328)] had
+2025-06-02 15:43:07,236 - INFO - [SERVER]: Received message from ('127.0.0.1', 54328): had
+2025-06-02 15:43:07,237 - INFO - [SERVER]: [('127.0.0.1', 54328)]
+2025-06-02 15:43:09,711 - INFO - [SERVER]: Sending message to ('127.0.0.1', 54328): hjads
+2025-06-02 15:43:09,711 - INFO - [CLIENT]: SERVER message to ('127.0.0.1', 54328): hjads
+2025-06-02 15:44:24,766 - INFO - [SERVER]: Connection closed by ('127.0.0.1', 54328)
+2025-06-02 15:44:50,392 - INFO - [SERVER]: Connected to ('127.0.0.1', 54357)
+2025-06-02 15:44:50,393 - INFO - [SERVER]: Waiting for data from client...
+2025-06-02 15:44:53,927 - INFO - [SERVER]: Connection closed by ('127.0.0.1', 54357)
+2025-06-02 15:44:56,234 - INFO - [SERVER]: Connected to ('127.0.0.1', 54358)
+2025-06-02 15:44:56,235 - INFO - [SERVER]: Waiting for data from client...
+2025-06-02 15:44:58,101 - INFO - [CLIENT]: [('127.0.0.1', 54358)] hhh
+2025-06-02 15:44:58,102 - INFO - [SERVER]: Received message from ('127.0.0.1', 54358): hhh
+2025-06-02 15:44:58,102 - INFO - [SERVER]: [('127.0.0.1', 54358)]
+2025-06-02 15:45:01,076 - INFO - [SERVER]: Sending message to ('127.0.0.1', 54358): ssshh
+2025-06-02 15:45:01,076 - INFO - [CLIENT]: SERVER message to ('127.0.0.1', 54358): ssshh
+2025-06-02 15:45:04,644 - INFO - [CLIENT]: [('127.0.0.1', 54358)] un chiste
+2025-06-02 15:45:04,644 - INFO - [SERVER]: Received message from ('127.0.0.1', 54358): un chiste
+2025-06-02 15:45:04,645 - INFO - [SERVER]: [('127.0.0.1', 54358)]
+2025-06-02 15:45:07,832 - INFO - [SERVER]: Sending message to ('127.0.0.1', 54358): cual?
+2025-06-02 15:45:07,833 - INFO - [CLIENT]: SERVER message to ('127.0.0.1', 54358): cual?
+2025-06-02 15:45:15,518 - INFO - [CLIENT]: [('127.0.0.1', 54358)] toc toc
+2025-06-02 15:45:15,519 - INFO - [SERVER]: Received message from ('127.0.0.1', 54358): toc toc
+2025-06-02 15:45:15,519 - INFO - [SERVER]: [('127.0.0.1', 54358)]
+2025-06-02 15:45:20,871 - INFO - [SERVER]: Sending message to ('127.0.0.1', 54358): quien es?
+2025-06-02 15:45:20,871 - INFO - [CLIENT]: SERVER message to ('127.0.0.1', 54358): quien es?
+2025-06-02 15:45:24,883 - INFO - [CLIENT]: [('127.0.0.1', 54358)] no sé
+2025-06-02 15:45:24,884 - INFO - [SERVER]: Received message from ('127.0.0.1', 54358): no sé
+2025-06-02 15:45:24,884 - INFO - [SERVER]: [('127.0.0.1', 54358)]
+2025-06-02 15:45:31,435 - INFO - [SERVER]: Sending message to ('127.0.0.1', 54358): y cual es el chiste?
+2025-06-02 15:45:31,435 - INFO - [CLIENT]: SERVER message to ('127.0.0.1', 54358): y cual es el chiste?
+2025-06-02 15:45:36,342 - INFO - [CLIENT]: [('127.0.0.1', 54358)] no sé
+2025-06-02 15:45:36,343 - INFO - [SERVER]: Received message from ('127.0.0.1', 54358): no sé
+2025-06-02 15:45:36,343 - INFO - [SERVER]: [('127.0.0.1', 54358)]
+2025-06-02 15:45:39,606 - INFO - [SERVER]: Sending message to ('127.0.0.1', 54358): a
+2025-06-02 15:45:39,606 - INFO - [CLIENT]: SERVER message to ('127.0.0.1', 54358): a
+2025-06-02 15:45:43,224 - INFO - [CLIENT]: [('127.0.0.1', 54358)] :)
+2025-06-02 15:45:43,224 - INFO - [SERVER]: Received message from ('127.0.0.1', 54358): :)
+2025-06-02 15:45:43,224 - INFO - [SERVER]: [('127.0.0.1', 54358)]
+2025-06-02 15:45:55,700 - INFO - [SERVER]: Sending message to ('127.0.0.1', 54358): exit
+2025-06-02 15:45:55,701 - INFO - [CLIENT]: SERVER message to ('127.0.0.1', 54358): exit
+2025-06-02 15:45:55,701 - INFO - [SERVER]: Server is shutting down
