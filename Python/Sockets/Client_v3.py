@@ -9,8 +9,8 @@ s.connect((HOST, PORT))
 while "Exit":  
     # Bucle para enviar mensajes hasta que se envíe "Exit"
     msg = input("Escribe un mensaje (o 'e x i t' (todo junto) para salir): ")  # Solicita al usuario un mensaje
-    
-    if msg.lower() == "exit":  # Si el usuario escribe "Exit", se sale del bucle
+
+    if msg.lower() == "exit" or msg == "e x i t":  # Si el usuario escribe "Exit", se sale del bucle
         break
     s.sendall(msg.encode())  # Envía el mensaje al servidor
 
